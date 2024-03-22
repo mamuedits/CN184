@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/back-view-hiker-watching-sunset-from-mountain_181624-52983.jpg?t=st=1711127199~exp=1711130799~hmac=7620795e332047cdc66dd80b692a8e4b030b2f2405497d354a5c7d1936e1f297&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-form input{
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#search-form button{
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#search {
+    margin-bottom: 20px;
+    
+}
+
+#search input {
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+#search-btn {
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#destination-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

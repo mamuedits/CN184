@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Guide</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+        <h1>Azure Destinations</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#login">login</a></li>
+            </ul>
+        </nav>
+        <form id="search-form" action="#" method="GET">
+            <input id="search-bar1" type="text" placeholder="Search..." name="search">
+            <button id="search-btn1" type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Tourism Guide!</h2>
+            <!-- Home content -->
+        </section>
+
+        <section id="destinations">
+            <h2>Discover Destinations</h2>
+            <div id="search">
+                <input type="text" placeholder="Search destinations...">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="destination-list">
+                <!-- Destination cards will be dynamically populated here -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Tourism Guide</h2>
+            <!-- About content -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Azure Destinations All rights reserved.</p>
+    </footer>
+
+    <script src="travel.js"></script>
+</body>
+</html>
