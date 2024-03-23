@@ -2,32 +2,96 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(https://img.freepik.com/free-photo/back-view-hiker-watching-sunset-from-mountain_181624-52983.jpg?t=st=1711127199~exp=1711130799~hmac=7620795e332047cdc66dd80b692a8e4b030b2f2405497d354a5c7d1936e1f297&w=740);
+    background-image: url(home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+#home{
+    padding-left: 8%;
+}
+#destinations{
+    padding-right: 12%;
+    padding-top: 1%;
+}
+#div1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#des {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 50px 20px 60px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+label {
+    display: inline;
+    margin-bottom: 30px;
+}
+
+select, input[type="date"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+#qu{
+    color: #fdffdd;
+    font-size: 20px;
+    padding-left: 5%;
+}
+#ven,#logo{
+    justify-content: flex-start;
+}
+#ddd{
+    color: #fff;
+    font-size: 40px;
+    padding-left: 5%;
+}
 header {
-    color: black;
-    padding: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding: 20px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 160px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    align-items: center;
 }
 
+#logo {
+    width: 6%;
+}
 nav ul li a {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -69,7 +133,7 @@ main {
 }
 
 footer {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     position: fixed;
