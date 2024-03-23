@@ -8,15 +8,16 @@
 </head>
 <body>
     <header>
-        <h1>Azure Destinations</h1>
+        <img src="logo.png" id="logo">
+        <h1 id="ven">VENTURE</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="travel.html">Home</a></li>
+                <li><a href="des.html">Destinations</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#profile">Profile</a></li>
-                <li><a href="#login">login</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
         <form id="search-form" action="#" method="GET">
@@ -26,32 +27,30 @@
     </header>
 
     <main>
+        <div id="div1">
         <section id="home">
-            <h2>Welcome to Tourism Guide!</h2>
-            <!-- Home content -->
+            <h2 id="ddd">DISCOVERING <br>THE WORLD.</h2>
+            <p id="qu">"Travel makes one modest.<br>You see what a tiny place you occupy <br>in the world."- Gustave Flaubert</p>
         </section>
 
         <section id="destinations">
-            <h2>Discover Destinations</h2>
-            <div id="search">
-                <input type="text" placeholder="Search destinations...">
-                <button id="search-btn">Search</button>
-            </div>
-            <div id="destination-list">
-                <!-- Destination cards will be dynamically populated here -->
-            </div>
+            
+            <form id="des">
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="paris">Paris</option>
+                    <option value="new-york">New York</option>
+                    <option value="tokyo">Tokyo</option>
+                </select><br>
+        
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+            
         </section>
-
-        <section id="about">
-            <h2>About Tourism Guide</h2>
-            <!-- About content -->
-        </section>
+        </div>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Azure Destinations All rights reserved.</p>
-    </footer>
-
-    <script src="travel.js"></script>
 </body>
 </html>
